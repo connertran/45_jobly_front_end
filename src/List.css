@@ -1,0 +1,17 @@
+ul{
+  list-style-type: none;
+}
+.List-div{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+.List-heading{
+  margin-top: 0px;
+}
+.List-ul-div{
+  overflow: scroll;
+  height: 100vh;
+  
+}

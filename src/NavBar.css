@@ -1,0 +1,22 @@
+.NavBar-div{
+  position: relative;
+  margin-top: 0;
+}
+.NavBar-logo{
+  position: absolute;
+  text-decoration: none;
+  left: 10px;
+  top:10px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.NavBar-link-div{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.NavBar-link{
+  color: white;
+  margin-left: 4px;
+}

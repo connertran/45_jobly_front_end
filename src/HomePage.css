@@ -1,0 +1,21 @@
+.HomePage-div{
+  padding-top: 100px;
+}
+
+.HomePage-heading{
+  margin-top: 0;
+  font-size: 50px;
+}
+.HomePage-button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: blue;
+}
+.HomePage-login-btn{
+  margin-right: 10px;
+}
+.HomePage-signup-btn{
+  margin-left: 10px;
+}

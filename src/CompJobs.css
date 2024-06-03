@@ -1,0 +1,17 @@
+ul{
+  list-style-type: none;
+}
+.CompJobs-div{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+.CompJobs-heading{
+  margin-top: 0px;
+}
+.CompJobs-ul-div{
+  overflow: scroll;
+  height: 100vh;
+  
+}

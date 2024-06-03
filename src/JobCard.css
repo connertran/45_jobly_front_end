@@ -1,0 +1,58 @@
+/* JobCard.css */
+.JobCard-div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .JobCard-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .JobCard-div p {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .JobCard-div p:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .JobCard-div p:last-child {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .JobCard-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .JobCard-button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .JobCard-button[disabled] {
+    background-color: green;
+  }
+  
+  .JobCard-button:not([disabled]) {
+    background-color: red;
+  }
+  
+  .JobCard-button:not([disabled]):hover {
+    background-color: darkred;
+  }
+  
